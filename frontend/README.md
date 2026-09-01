@@ -171,7 +171,7 @@ src/services/api.js
 The API URL is configured using the Vite environment variable:
 
 ```env
-VITE_API_URL=https://fitnessapp-api-ln8u.onrender.com
+VITE_API_URL=https://fitness-tracker-app-rjfr.onrender.com
 ```
 
 Requests automatically include the stored JWT token when available.
@@ -250,7 +250,7 @@ VITE_API_URL=http://localhost:4000
 For production:
 
 ```env
-VITE_API_URL=https://fitnessapp-api-ln8u.onrender.com
+VITE_API_URL=https://fitness-tracker-app-rjfr.onrender.com
 ```
 
 Do not commit `.env` files containing sensitive information.
@@ -313,7 +313,7 @@ VITE_API_URL
 Value:
 
 ```text
-https://fitnessapp-api-ln8u.onrender.com
+https://fitness-tracker-app-rjfr.onrender.com
 ```
 
 ## Vue Router Deployment

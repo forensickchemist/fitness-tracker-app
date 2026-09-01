@@ -79,7 +79,7 @@ Fitness Tracker
 ### Backend Base URL
 
 ```text
-https://fitnessapp-api-ln8u.onrender.com
+https://fitness-tracker-app-rjfr.onrender.com
 ```
 
 ### Main API Resources
@@ -143,7 +143,7 @@ MongoDB
 ### Frontend
 
 ```env
-VITE_API_URL=https://fitnessapp-api-ln8u.onrender.com
+VITE_API_URL=https://fitness-tracker-app-rjfr.onrender.com
 ```
 
 ### Backend
