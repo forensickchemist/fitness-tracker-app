@@ -1,0 +1,358 @@
+/* =========================================================
+   PALETTE 1 — HIGH-ENERGY NEON
+   Aggressive • Sporty • High Intensity
+   ========================================================= */
+
+[data-theme="neon"] {
+  /* Backgrounds */
+  --color-bg: #0a0d14;
+  --color-surface: #141a29;
+  --color-surface-elevated: #1b2233;
+
+  /* Brand / Accent */
+  --color-primary: #ff3366;
+  --color-secondary: #00e5ff;
+  --color-tertiary: #8b5cf6;
+
+  /* Status */
+  --color-success: #39ff14;
+  --color-warning: #ffb020;
+  --color-danger: #ff4d6d;
+  --color-info: #00e5ff;
+
+  /* Text */
+  --color-text: #ffffff;
+  --color-text-secondary: #e2e8f0;
+  --color-text-muted: #a8b1c2;
+  --color-text-disabled: #6b7280;
+
+  /* Borders */
+  --color-border: #2a3449;
+  --color-border-subtle: #20283a;
+  --color-divider: #252e41;
+
+  /* RGB values for transparent colors */
+  --color-primary-rgb: 255 51 102;
+  --color-secondary-rgb: 0 229 255;
+  --color-success-rgb: 57 255 20;
+  --color-danger-rgb: 255 77 109;
+  --color-warning-rgb: 255 176 32;
+
+  /* Interactive */
+  --color-primary-hover: #ff4d7a;
+  --color-primary-active: #e62e5c;
+
+  --color-secondary-hover: #33eaff;
+  --color-secondary-active: #00cce5;
+
+  --color-success-hover: #5cff3d;
+  --color-danger-hover: #ff6682;
+}
+
+
+/* =========================================================
+   PALETTE 2 — ELECTRIC ENDURANCE
+   Modern • Balanced • Daily Tracking
+   ========================================================= */
+
+[data-theme="endurance"] {
+  /* Backgrounds */
+  --color-bg: #0b0f19;
+  --color-surface: #161e31;
+  --color-surface-elevated: #1d2740;
+
+  /* Brand / Accent */
+  --color-primary: #00ff9d;
+  --color-secondary: #ff9100;
+  --color-tertiary: #7c4dff;
+
+  /* Status */
+  --color-success: #00ff9d;
+  --color-warning: #ffb020;
+  --color-danger: #ff5252;
+  --color-info: #7c4dff;
+
+  /* Text */
+  --color-text: #ffffff;
+  --color-text-secondary: #e2e8f0;
+  --color-text-muted: #a8b1c2;
+  --color-text-disabled: #6b7280;
+
+  /* Borders */
+  --color-border: #2b3853;
+  --color-border-subtle: #222d44;
+  --color-divider: #27334c;
+
+  /* RGB values */
+  --color-primary-rgb: 0 255 157;
+  --color-secondary-rgb: 255 145 0;
+  --color-success-rgb: 0 255 157;
+  --color-danger-rgb: 255 82 82;
+  --color-warning-rgb: 255 176 32;
+
+  /* Interactive */
+  --color-primary-hover: #33ffb4;
+  --color-primary-active: #00e58d;
+
+  --color-secondary-hover: #ffa733;
+  --color-secondary-active: #e68200;
+
+  --color-success-hover: #33ffb4;
+  --color-danger-hover: #ff7070;
+}
+
+
+/* =========================================================
+   PALETTE 3 — ZEN RECOVERY
+   Calm • Holistic • Recovery
+   ========================================================= */
+
+[data-theme="zen"] {
+  /* Backgrounds */
+  --color-bg: #12101a;
+  --color-surface: #1e1a2b;
+  --color-surface-elevated: #29233a;
+
+  /* Brand / Accent */
+  --color-primary: #bb86fc;
+  --color-secondary: #03dac6;
+  --color-tertiary: #ffb74d;
+
+  /* Status */
+  --color-success: #03dac6;
+  --color-warning: #ffb74d;
+  --color-danger: #cf6679;
+  --color-info: #03dac6;
+
+  /* Text */
+  --color-text: #ffffff;
+  --color-text-secondary: #e0e0e0;
+  --color-text-muted: #aaa5b5;
+  --color-text-disabled: #716c7a;
+
+  /* Borders */
+  --color-border: #393149;
+  --color-border-subtle: #2d273c;
+  --color-divider: #342d45;
+
+  /* RGB values */
+  --color-primary-rgb: 187 134 252;
+  --color-secondary-rgb: 3 218 198;
+  --color-success-rgb: 3 218 198;
+  --color-danger-rgb: 207 102 121;
+  --color-warning-rgb: 255 183 77;
+
+  /* Interactive */
+  --color-primary-hover: #c99cff;
+  --color-primary-active: #aa75e8;
+
+  --color-secondary-hover: #33e4d4;
+  --color-secondary-active: #02c5b2;
+
+  --color-success-hover: #33e4d4;
+  --color-danger-hover: #df7d90;
+}
+
+
+/* =========================================================
+   DEFAULT / FALLBACK
+   ========================================================= */
+
+:root {
+  /*
+   * Palette 1 is the default.
+   * This ensures the application still has
+   * valid colors even if data-theme is missing.
+   */
+
+  /* Backgrounds */
+  --color-bg: #0a0d14;
+  --color-surface: #141a29;
+  --color-surface-elevated: #1b2233;
+
+  /* Brand / Accent */
+  --color-primary: #ff3366;
+  --color-secondary: #00e5ff;
+  --color-tertiary: #8b5cf6;
+
+  /* Status */
+  --color-success: #39ff14;
+  --color-warning: #ffb020;
+  --color-danger: #ff4d6d;
+  --color-info: #00e5ff;
+
+  /* Text */
+  --color-text: #ffffff;
+  --color-text-secondary: #e2e8f0;
+  --color-text-muted: #a8b1c2;
+  --color-text-disabled: #6b7280;
+
+  /* Borders */
+  --color-border: #2a3449;
+  --color-border-subtle: #20283a;
+  --color-divider: #252e41;
+
+  /* RGB */
+  --color-primary-rgb: 255 51 102;
+  --color-secondary-rgb: 0 229 255;
+  --color-success-rgb: 57 255 20;
+  --color-danger-rgb: 255 77 109;
+  --color-warning-rgb: 255 176 32;
+
+  /* Interactive */
+  --color-primary-hover: #ff4d7a;
+  --color-primary-active: #e62e5c;
+
+  --color-secondary-hover: #33eaff;
+  --color-secondary-active: #00cce5;
+
+  --color-success-hover: #5cff3d;
+  --color-danger-hover: #ff6682;
+
+  /* =======================================================
+     TYPOGRAPHY
+     ======================================================= */
+
+  --font-family-base:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  --font-family-mono:
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    monospace;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* =======================================================
+     SPACING
+     ======================================================= */
+
+  --spacing-0: 0;
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  --spacing-4xl: 6rem;
+
+  /* =======================================================
+     BORDER RADIUS
+     ======================================================= */
+
+  --border-radius-none: 0;
+  --border-radius-sm: 0.375rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 0.75rem;
+  --border-radius-xl: 1rem;
+  --border-radius-2xl: 1.5rem;
+  --border-radius-full: 9999px;
+
+  /* =======================================================
+     BORDERS
+     ======================================================= */
+
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+
+  /* =======================================================
+     SHADOWS
+     ======================================================= */
+
+  --shadow-none: none;
+
+  --shadow-sm:
+    0 1px 2px rgb(0 0 0 / 0.25);
+
+  --shadow-md:
+    0 4px 6px rgb(0 0 0 / 0.30);
+
+  --shadow-lg:
+    0 10px 15px rgb(0 0 0 / 0.35);
+
+  --shadow-xl:
+    0 20px 25px rgb(0 0 0 / 0.40);
+
+  /* =======================================================
+     FOCUS
+     ======================================================= */
+
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 2px;
+  --focus-ring-color: var(--color-primary);
+
+  /* =======================================================
+     LAYOUT
+     ======================================================= */
+
+  --container-xs: 480px;
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-2xl: 1440px;
+
+  --sidebar-width: 260px;
+  --header-height: 64px;
+
+  /* =======================================================
+     TRANSITIONS
+     ======================================================= */
+
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 300ms ease;
+
+  /* =======================================================
+     Z-INDEX
+     ======================================================= */
+
+  --z-base: 0;
+  --z-dropdown: 1000;
+  --z-sticky: 1100;
+  --z-fixed: 1200;
+  --z-modal-backdrop: 1300;
+  --z-modal: 1400;
+  --z-popover: 1500;
+  --z-tooltip: 1600;
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms;
+    --transition-base: 0ms;
+    --transition-slow: 0ms;
+  }
+}
